@@ -22,17 +22,30 @@ namespace ConsoleApp8
         //    Console.ReadLine();
         //}
 
+        //static void Main(string[] args)
+        //{
+        //    int[] a = new int[10];
+        //    for (int k = 0; k < 10; k++)
+        //    {
+        //        a[k] = k * 2;
+        //    }
+        //    foreach (int k in a)
+        //    {
+        //        Console.WriteLine(k);
+        //    }
+        //    Console.ReadLine();
+        //}
+
         static void Main(string[] args)
         {
-            int[] a = new int[10];
-            for (int k = 0; k < 10; k++)
+            int[] arr = { 11, 35, 62, 555, 989 };
+            int sum = 0;
+
+            foreach (int x in arr)
             {
-                a[k] = k * 2;
+                sum += x;
             }
-            foreach (int k in a)
-            {
-                Console.WriteLine(k);
-            }
+            Console.WriteLine(sum);
             Console.ReadLine();
         }
     }
