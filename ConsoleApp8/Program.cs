@@ -21,5 +21,19 @@ namespace ConsoleApp8
         //    }
         //    Console.ReadLine();
         //}
+
+        static void Main(string[] args)
+        {
+            int[] a = new int[10];
+            for (int k = 0; k < 10; k++)
+            {
+                a[k] = k * 2;
+            }
+            foreach (int k in a)
+            {
+                Console.WriteLine(k);
+            }
+            Console.ReadLine();
+        }
     }
 }
